@@ -1,7 +1,7 @@
 body{
 margin: 0;
 padding: 0;
- background: url(Cursed.png);
+background: url(Cursed.png);
 background-size: cover;
 background-position: center;
 font-family: sans-serif;
@@ -44,4 +44,13 @@ h1{
 .loginbox input{
  width: 100%;
  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+ border: none;
+ border-bottom: 1px solid #fff;
+ background: transparent;
+ outline: none;
+ height: 40px;
 }
